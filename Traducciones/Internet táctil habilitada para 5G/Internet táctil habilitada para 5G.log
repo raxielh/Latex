@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 FEB 2019 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 FEB 2019 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,44 +152,46 @@ LaTeX Font Info:    ... okay on input line 3.
 -- Lines per column: 49 (exact).
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 3.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 36.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.03749> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.03374> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 25.
-LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 25
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 36
 .
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.05249> on input line 25.
+(Font)              <14.05249> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.83669> on input line 25.
+(Font)              <9.83669> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.02625> on input line 25.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 25.
+(Font)              <7.02625> on input line 36.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 36.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.05249> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14.05249> not available
 
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 27.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 40.
 
-Underfull \hbox (badness 1629) in paragraph at lines 29--30
+Underfull \hbox (badness 1629) in paragraph at lines 42--43
 []\OT1/ppl/m/sc/12.045 as \OT1/ppl/m/n/12.045 co-mu-ni-ca-ciones m[]oviles sigu
 en de-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 29--30
+Underfull \hbox (badness 1603) in paragraph at lines 42--43
 \OT1/ppl/m/n/12.045 econom[]^^Pa mod-erna, in-clu-i-dos los con-sum-i-
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 31--32
+Underfull \hbox (badness 2150) in paragraph at lines 44--45
 \OT1/ppl/m/n/12.045 es-ce-nario est[]a siendo con-fig-u-rado para el
  []
 
@@ -197,72 +199,75 @@ Underfull \hbox (badness 2150) in paragraph at lines 31--32
 
 
 ]
-Underfull \hbox (badness 3009) in paragraph at lines 43--44
+Underfull \hbox (badness 3009) in paragraph at lines 56--57
 []\OT1/ppl/m/n/12.045 Dadas es-tas ca-paci-dades de tec-nolog[]^^Pa
  []
 
 [2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 49.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 62.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ppl/m/n/12.045 en-ter-a-mente. Es-pe-cial-mente en dis-tan-cias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ppl/m/n/12.045 peque[]nas en-tre veh[]^^Pculos au-tom-a-ti-za-dos,
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 57--58
+Underfull \hbox (badness 1783) in paragraph at lines 70--71
 \OT1/ppl/m/n/12.045 en par-tic-u-lar en pelo-tones, las situa-ciones
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 57--58
+Underfull \hbox (badness 4492) in paragraph at lines 70--71
 \OT1/ppl/m/n/12.045 po-ten-cial-mente cr[]^^Pticas para la se-guri-dad
  []
 
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 61.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 61.
+(Font)              <12.045> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.43146> on input line 61.
+(Font)              <8.43146> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.02249> on input line 61.
-[3]
-Underfull \hbox (badness 2503) in paragraph at lines 65--66
+(Font)              <6.02249> on input line 74.
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 2503) in paragraph at lines 78--79
 \OT1/ppl/m/n/12.045 es-tar disponible en cualquier lu-gar y en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []\OT1/ppl/m/n/9.03374 ITU, \World telecom-mu-ni-ca-tions/ICT in-di-ca-tors
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 88.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 \OT1/pcr/m/n/9.03374 https://www.itu.int/dms_pub/itu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 \OT1/pcr/m/n/9.03374 http://www.lis.ei.tum.de/
  []
 
 [4] (./Internet táctil habilitada para 5G.aux) ) 
 Here is how much of TeX's memory you used:
- 1285 strings out of 492649
- 23703 string characters out of 6129622
+ 1290 strings out of 492649
+ 23776 string characters out of 6129622
  90837 words of memory out of 5000000
- 5205 multiletter control sequences out of 15000+600000
- 42129 words of font info for 91 fonts, out of 8000000 for 9000
+ 5208 multiletter control sequences out of 15000+600000
+ 45522 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,22p,1782b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,22p,1782b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texm
 f-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
@@ -270,7 +275,7 @@ e1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/h
 elvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "Internet táctil habilitada para 5G.pdf" (4 pages, 80077 by
+Output written on "Internet táctil habilitada para 5G.pdf" (4 pages, 80760 by
 tes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
