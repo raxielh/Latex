@@ -1,0 +1,280 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 FEB 2019 00:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Internet táctil habilitada para 5G.tex"
+(./Internet táctil habilitada para 5G.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 503.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+-- Using IEEE Computer Society mode.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 12 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <6.02249> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <6.02249> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.03749> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10.03749> not available
+
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.05249> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.05249> not available
+
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <22.08249> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <22.08249> not available
+
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@IEEEsubequation=\count87
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count88
+\c@table=\count89
+\@IEEEeqnnumcols=\count90
+\@IEEEeqncolcnt=\count91
+\@IEEEsubeqnnumrollback=\count92
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count93
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count94
+\@IEEEtranrubishbin=\box27
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip44
+\RaggedLeftLeftskip=\skip45
+\RaggedRightLeftskip=\skip46
+\CenteringRightskip=\skip47
+\RaggedLeftRightskip=\skip48
+\RaggedRightRightskip=\skip49
+\CenteringParfillskip=\skip50
+\RaggedLeftParfillskip=\skip51
+\RaggedRightParfillskip=\skip52
+\JustifyingParfillskip=\skip53
+\CenteringParindent=\skip54
+\RaggedLeftParindent=\skip55
+\RaggedRightParindent=\skip56
+\JustifyingParindent=\skip57
+)
+(./Internet táctil habilitada para 5G.aux)
+\openout1 = `"Internet táctil habilitada para 5G.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+-- Lines per column: 49 (exact).
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 25.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.03374> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 25.
+LaTeX Font Info:    Calculating math sizes for size <14.05249> on input line 25
+.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.05249> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.83669> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.02625> on input line 25.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 25.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.05249> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14.05249> not available
+
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 27.
+
+Underfull \hbox (badness 1629) in paragraph at lines 29--30
+[]\OT1/ppl/m/sc/12.045 as \OT1/ppl/m/n/12.045 co-mu-ni-ca-ciones m[]oviles sigu
+en de-
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 29--30
+\OT1/ppl/m/n/12.045 econom[]^^Pa mod-erna, in-clu-i-dos los con-sum-i-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 31--32
+\OT1/ppl/m/n/12.045 es-ce-nario est[]a siendo con-fig-u-rado para el
+ []
+
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 3009) in paragraph at lines 43--44
+[]\OT1/ppl/m/n/12.045 Dadas es-tas ca-paci-dades de tec-nolog[]^^Pa
+ []
+
+[2]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\OT1/ppl/m/n/12.045 en-ter-a-mente. Es-pe-cial-mente en dis-tan-cias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\OT1/ppl/m/n/12.045 peque[]nas en-tre veh[]^^Pculos au-tom-a-ti-za-dos,
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 57--58
+\OT1/ppl/m/n/12.045 en par-tic-u-lar en pelo-tones, las situa-ciones
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 57--58
+\OT1/ppl/m/n/12.045 po-ten-cial-mente cr[]^^Pticas para la se-guri-dad
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8.43146> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.02249> on input line 61.
+[3]
+Underfull \hbox (badness 2503) in paragraph at lines 65--66
+\OT1/ppl/m/n/12.045 es-tar disponible en cualquier lu-gar y en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]\OT1/ppl/m/n/9.03374 ITU, \World telecom-mu-ni-ca-tions/ICT in-di-ca-tors
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+\OT1/pcr/m/n/9.03374 https://www.itu.int/dms_pub/itu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+\OT1/pcr/m/n/9.03374 http://www.lis.ei.tum.de/
+ []
+
+[4] (./Internet táctil habilitada para 5G.aux) ) 
+Here is how much of TeX's memory you used:
+ 1285 strings out of 492649
+ 23703 string characters out of 6129622
+ 90837 words of memory out of 5000000
+ 5205 multiletter control sequences out of 15000+600000
+ 42129 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,5n,22p,1782b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texm
+f-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on "Internet táctil habilitada para 5G.pdf" (4 pages, 80077 by
+tes).
+PDF statistics:
+ 42 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

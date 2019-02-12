@@ -1,0 +1,98 @@
+\documentclass[12pt,journal,compsoc]{IEEEtran}
+\usepackage{ragged2e}
+\begin{document}
+\title{Internet táctil habilitada para 5G}
+\author{
+			Meryem Simsek,
+             Adnan Aijaz,
+             Mischa Dohler,
+             Joachim Sachs,
+             Gerhard Fettweis
+             }
+\IEEEtitleabstractindextext{
+
+\justify
+\begin{abstract}
+la ambición a largo plazo de la Internet táctil es permitir una democratización de las habilidades, y cómo se está entregando a nivel mundial. Una parte integral de esto es poder transmitir el tacto en tiempo real percibido, que es habilitado por equipos adecuados de robótica y háptica en los bordes, junto con una red de comunicaciones sin precedentes. Los sistemas de comunicaciones móviles de quinta generación (5G) sustentarán esta Internet emergente en el extremo inalámbrico. Este documento presenta los conceptos de tecnología más importantes, que se encuentran en la intersección de la Internet táctil más grande y los sistemas 5G emergentes. El documento describe los requisitos técnicos clave y los enfoques arquitectónicos para Internet táctil, relacionados con los protocolos de acceso inalámbrico, aspectos de administración de recursos de radio, capacidades de redes centrales de próxima generación, capacidades de nube de borde y AI de borde. El documento también destaca el impacto económico de Internet táctil, así como un cambio importante en los modelos de negocios para las telecomunicaciones tradicionales.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Internet táctil, comunicaciones hápticas,
+Comunicación en tiempo real, inteligencia de borde, latencia ultra baja, confiabilidad ultra alta, 5G, conectividad masiva, OFDM
+\end{IEEEkeywords}
+
+}
+\maketitle
+
+\section{Introducción}
+
+\IEEEPARstart{L}{as} comunicaciones móviles siguen desempeñando un papel importante en la economía moderna, incluidos los consumidores, la salud,Educación, logística y otras industrias importantes. Las redes de comunicaciones móviles de hoy han conectado con éxito a una gran mayoría de la población mundial. Después de crear Internet móvil, conectar miles de millones de teléfonos inteligentes y computadoras portátiles, el enfoque de las comunicaciones móviles se está orientando hacia la provisión de conectividad ubicua para máquinas y dispositivos, creando así Internet-of-Things (IoT).\cite{1}
+
+Con los avances tecnológicos de hoy, el escenario está siendo configurado para el surgimiento de Internet táctil en el que la conectividad de red ultra confiable y ultra sensible le permitirá brindar control en tiempo real y experiencias táctiles físicas de forma remota. La Internet táctil proporcionará un verdadero cambio de paradigma desde la entrega de contenido a las redes de entrega de habilidades, y revolucionará así a casi todos los segmentos de la sociedad. 
+
+Según ITU \cite{2}, Internet táctil agregará una nueva dimensión a la interacción hombre-máquina al ofrecer una latencia lo suficientemente baja como para construir sistemas interactivos en tiempo real. Además, la Internet táctil se ha descrito como una infraestructura de comunicación que combina baja latencia, tiempo de tránsito muy corto, alta disponibilidad y alta confiabilidad con un alto nivel de seguridad \cite{3}, \cite{4}. Asociado con la proximidad de la computación en la nube, por ejemplo, Las nubes móviles de borde y combinadas con la realidad virtual o aumentada para los controles sensoriales y hápticos, el Internet táctil aborda áreas con tiempos de reacción del orden de un milisegundo. Las áreas de ejemplo son los juegos en tiempo real, la automatización industrial, los sistemas de transporte, la salud y la educación.
+
+Porque la Internet Táctil será realmente crítica. En aspectos de la sociedad, deberá ser ultra confiable, con una segunda interrupción por año, soportar latencias muy bajas y tener la capacidad suficiente para permitir que una gran cantidad de dispositivos se comuniquen entre sí de manera simultánea y autónoma. Será capaz de interconectarse con la Internet por cable tradicional, la Internet móvil y la IoT, formando así una Internet de dimensiones y capacidades completamente nuevas. Los modernos sistemas de comunicaciones móviles de cuarta generación (4G) no cumplen en gran medida con los requisitos técnicos para Internet táctil. Por lo tanto, se espera que los sistemas de comunicaciones móviles de quinta generación (5G) sustenten la Internet táctil en el extremo inalámbrico.
+
+El acceso inalámbrico 5G es la solución de acceso inalámbrico para cumplir llenar los requisitos de comunicación inalámbrica para 2020 y más allá [5]. En la UIT, el grupo de trabajo 5G del UIT-R es responsable de los aspectos del sistema de radio terrestre de los sistemas internacionales de telecomunicaciones móviles (IMT), que hoy en día comprenden IMT-2000 (es decir, 3G) y IMT-Advanced (es decir, 4G). La 5G se trata bajo el término IMT-2020, cuyo alcance se está desarrollando actualmente en una nueva recomendación del UIT-R a la que normalmente se hace referencia como Visión IMT. En el proyecto de investigación METIS [6], [7], y recientemente también por la alianza de telecomunicaciones de la industria NGMN [8], se desarrolló una evaluación temprana de los escenarios y requisitos de 5G. En general, existe un entendimiento común de que 5G no solo debe respaldar una evolución de los servicios de comunicación móvil tradicionales, como la comunicación multimedia móvil personal o los servicios de banda ancha móvil personal; Además, 5G debe abordar casos de uso novedosos que incluyen, por ejemplo, la comunicación de tipo de máquina (en varios campos como, por ejemplo, redes de energía inteligente o redes inteligentes, comunicación de vehículos y sistemas de transporte inteligentes, o redes de sensores) o formas novedosas de distribución de medios. Este rango de casos de uso de 5G eleva los requisitos de 5G en varias dimensiones, como la latencia, la velocidad de datos, la eficiencia energética del dispositivo y la red, la movilidad, la confiabilidad, la densidad del volumen de tráfico, la densidad de la conexión, etc. Un importante facilitador para el Internet táctil.
+
+Para facilitar el esperado incremento masivo de tráfico a ser manejado en un sistema 5G, se debe asignar espectro adicional al acceso inalámbrico 5G. El rango de espectro hasta unos pocos GHz es de especial importancia para proporcionar una cobertura de área amplia. Sin embargo, para habilitar una capacidad muy alta y velocidades de datos muy altas de espectro de múltiples Gb / s por encima de 10 GHz, también será necesario. El rango de espectro completo desde alrededor de 1 GHz hasta el rango de ondas milimétricas hasta alrededor de 100 GHz es, por consiguiente, relevante para 5G. Una consideración importante es que alrededor de 2020 las grandes implementaciones de LTE operarán en el espectro por debajo de 6.5 GHz. Es deseable que las funcionalidades inalámbricas de la próxima generación en estas bandas puedan implementarse de manera compatible con los sistemas implementados, principalmente LTE, para que los dispositivos pre-5G en gran parte implementados puedan continuar ejecutando sus servicios. Para implementaciones en nuevo espectro, el acceso inalámbrico 5G se puede implementar sin restricciones de compatibilidad con versiones anteriores.
+
+En general, una estrecha integración con LTE es deseable para 5G, el cual es identificado como un requisito importante por muchos jugadores de la industria: Esto es principalmente para permitir que los servicios 5G puedan ser introducidos rápida y eficientemente desde los primeros despliegues de 5G cuando la disponibilidad de 5G aún es limitada [9]. En pocas palabras, el acceso inalámbrico 5G consistirá en una evolución de LTE complementada con nuevas tecnologías de radio y diseños de arquitectura [10].
+
+Dadas estas capacidades de tecnología móvil sin precedentes, creemos que 5G jugará una parte integral del ecosistema de conectividad a Internet táctil. La intersección de Internet táctil y 5G es, por lo tanto, el foco de este documento. Con este fin, el papel está organizado de la siguiente manera. En la Sección II, describimos las emocionantes aplicaciones de Internet táctiles que prevemos que serán populares una vez que la red esté operativa. En la Sección III, luego describimos los requisitos de Internet Tactile que se derivan directamente de los escenarios de aplicación y que resuenan con muchos de los requisitos de 5G. En las Secciones IV a VII, analizamos los problemas técnicos específicos de la comunidad móvil 5G, es decir, la arquitectura, el hardware, el acceso, la gestión de recursos de radio, así como el acceso por radio, las redes centrales y los diseños de nube de borde. En la Sección VIII, describimos la importancia y la realización de las capacidades de inteligencia artificial (AI). En la Sección IX, se evalúa el impacto económico de la Internet táctil. Finalmente, en la Sección X, se extraen conclusiones y se resumen los trabajos futuros.
+
+\section{Aplicaciones y servicios}
+
+El Internet táctil mejorará la forma de comunicación.y conducir a una interacción social más realista en diversos entornos. La red de área local inalámbrica (WLAN) actual y los sistemas celulares no ofrecen nada cerca de lograr una latencia de extremo a extremo de 1 ms, lo cual es crucial para las aplicaciones de Internet Tactile como se muestra en la Sección III.A. Por lo tanto, es difícil comprender una lista completa de posibles aplicaciones de Internet táctiles que puedan surgir. En esta sección, se proporcionan algunos ejemplos principales para mostrar el potencial pionero de Internet táctil.
+
+\subsection{Automatización en la industria industrial}
+
+Automatización industrial junto con maquinas comuni-La cación es una de las aplicaciones discutidas en el marco de los sistemas 5G. Dentro de tales aplicaciones, existen diversos procesos de control que requieren diferentes latencias de extremo a extremo, velocidad de datos, confiabilidad y seguridad [11], [12]. La sensibilidad de los circuitos de control de los dispositivos que se mueven rápidamente es, por ejemplo, significativamente inferior a 1 ms por sensor [12] - [14]. Por lo tanto, la automatización en la industria es un campo de aplicación clave en el Internet táctil. Hoy en día, los procesos de control se realizan mediante una conexión por cable rápida, por ejemplo. El Ethernet industrial. En el futuro, estos sistemas cableados deben ser reemplazados total o parcialmente por sistemas inalámbricos para permitir una alta flexibilidad en la producción, es decir, la revolución industrial [15]. Esto requiere una confiabilidad garantizada y una latencia mínima de extremo a extremo y puede habilitarse mediante soluciones de Internet táctiles.
+
+\subsection{Conducción autónoma totalmente}
+
+La conducción y el lanzamiento de vehículos totalmente automatizados se discuten como un nuevo paso en la movilidad dentro del contexto de 5G. Se puede lograr una reducción considerable y sostenible de los accidentes de tráfico y los atascos de tráfico mediante la conducción autónoma, es decir, la comunicación y coordinación de vehículo a vehículo o de vehículo a infraestructura. El tiempo necesario para evitar colisiones en las aplicaciones actuales para la seguridad del vehículo es inferior a 10 ms. Si se considera un intercambio de datos bidireccional para maniobras automáticas de conducción, es probable que se necesite una latencia del orden de milisegundos. Esto se puede realizar técnicamente mediante la Internet táctil y su latencia de extremo a extremo de 1 ms.
+
+Se espera que la conducción totalmente autónoma cambie el tráfico. comportamiento enteramente. Especialmente en distancias pequeñas entre vehículos automatizados, en particular en pelotones, las situaciones potencialmente críticas para la seguridad deben detectarse antes que con los conductores humanos. Esto requiere un comportamiento altamente fiable, proactivo / predictivo en los futuros sistemas de comunicación inalámbrica.
+
+\subsection{Robótica}
+
+En los últimos años, el potencial técnico de la robótica ha aumentado en varios campos. Su potencial demostrado viene con una mayor complejidad y varios desafíos, por lo que la robótica autónoma encontrará su aplicación solo en un rango limitado de áreas bastante específicas, por ejemplo. Conducción autónoma, en un futuro próximo. Sin embargo, los robots controlados a distancia con retroalimentación en tiempo real, sincrónica y visual-háptica, parecen ser una alternativa prometedora a los robots autónomos. Los robots de control deben ocurrir en tiempos de reacción de latencia lo suficientemente rápidos para el robot y su objeto. Si no se garantiza un control en tiempo real y la comunicación, los robots se moverán de forma ajustada, lo que puede conducir a un comportamiento oscilatorio. Para muchos escenarios de robótica en la fabricación, esto ha conducido a un objetivo de latencia máxima de un enlace de comunicación de 100 \(\mu\)s, y tiempos de reacción de ida y vuelta de 1 ms, el objetivo descrito para Internet Tactile.
+
+\subsection{Cuidado de la salud}
+
+Telediagnóstico, telecirugía y telerehabilitación son sólo Algunas de las muchas aplicaciones potenciales de la Internet táctil en la asistencia sanitaria. Usando herramientas avanzadas de tele-diagnóstico, la experiencia médica podría estar disponible en cualquier lugar y en cualquier momento, independientemente de la ubicación del médico [16]. De este modo, el médico controlará un tele-robot en la ubicación del paciente, de modo que no solo se proporcione información de audio y / o visual, sino también retroalimentación háptica. El mismo principio técnico se aplica a las aplicaciones de telecirugía. En las técnicas de tele-rehabilitación se pueden utilizar para que los pacientes dirijan y controlen sus movimientos de forma remota. En todas las tecnologías de atención médica basadas en Internet táctiles, la alta fidelidad y la precisión extrema son fundamentales para permitir el despliegue de la tecnología telemédica.
+
+\renewcommand{\refname}{Referencias}
+\begin{thebibliography}{11}
+
+\bibitem{1} L. Atzori, A. Iera, and G. Morabito, “The Internet of Things: A survey,” J. Comput. Netw., vol. 54, no. 15, pp. 2787–2805, 2010.
+
+\bibitem{2} ITU, “World telecommunications/ICT indicators database,” Int. Telecommun. Union, Tech. Rep., Dec. 2014.
+
+\bibitem{3} ITU-T, “The tactile internet,” ITU-T technology watch report [Online]. Available:
+\\\texttt{https://www.itu.int/dms\_{}pub/itu\-{}t/oth/23/01/T230100002300 01PDFE.pdf}
+
+\bibitem{4} G. Fettweis. The Opportunities of the Tactile Internet—A Challenge For Future Electronics [Online]. Available: 
+\\\texttt{http://www.lis.ei.tum.de/ fileadmin/w00bdv/www/fpl2014/fettweis.pdf} 
+
+\bibitem{5} E. Dahlman et al., “5G wireless access: Requirements and realization,” IEEE Commun. Mag., vol. 52, no. 12, pp. 42–45, Dec. 2014.
+
+\bibitem{6} P. Popovski et al., “Scenarios, requirements and KPIs for 5G mobile and wireless system—deliverable 1.1,” ICT-317669 METIS Project, Apr. 2013.
+
+\bibitem{7} Z. Roth et al., “Vision and architecture supporting wireless GBit/sec/km2 capacity density deployments,” in Proc. Future Netw. Mobile Summit, Jun. 2010, pp. 1–7.
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
